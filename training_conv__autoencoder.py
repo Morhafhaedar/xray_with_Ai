@@ -20,8 +20,6 @@ import cv2
 import glob
 from   tqdm import tqdm
 import matplotlib.pyplot as plt
-# from   convolution_net import UNet, Convolution_NxN, Convolution_3
-# from   customDatset import Custom_Data
 from   torch.utils.data import DataLoader
 import copy
 import time
