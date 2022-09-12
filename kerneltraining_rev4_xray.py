@@ -7,7 +7,7 @@ import torch.nn  as nn
 import cv2
 import glob
 from   tqdm import tqdm
-from   convolution_net import UNet, Convolution_NxN, Convolution_3
+from   convolution_nets import UNet, Convolution_NxN, Convolution_3
 from   customDatset import Custom_Data
 from   torch.utils.data import DataLoader
 
